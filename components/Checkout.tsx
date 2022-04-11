@@ -40,7 +40,7 @@ const Checkout = () => {
           Checkout Our NFT Collections
         </h3>
         <p className="text-xs md:text-sm">
-          Here are some of the top projects we've launched.
+          Here are some of the top projects we&apos;ve launched.
         </p>
       </div>
 

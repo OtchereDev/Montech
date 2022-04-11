@@ -2,7 +2,7 @@ import React from "react";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
-import DiscoveryImage from "../assets/images/discovery.svg"
+import DiscoveryImage from "../assets/images/discovery.svg";
 
 const Discovery = () => {
   return (
@@ -18,9 +18,9 @@ const Discovery = () => {
         </button>
       </div>
       <div className="lg:w-4/12 mt-5 md:mt-5 w-10/12 md:w-4/12">
-          <div className="relative flex justify-center items-center">
-              <Image src={DiscoveryImage}  />
-          </div>
+        <div className="relative flex justify-center items-center">
+          <Image src={DiscoveryImage} alt={"discovery"} />
+        </div>
       </div>
     </div>
   );

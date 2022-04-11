@@ -8,7 +8,7 @@ const Newsletter = () => {
       <div className="flex flex-col px-5 py-6  md:flex-row items-center justify-center gap-5 text-white my-4 bg-white bg-opacity-10 rounded-2xl md:w-10/12 lg:w-8/12 mx-auto">
         <div className="lg:w-6/12 mt-5 md:mt-5 w-10/12 md:w-4/12">
           <div className="relative flex justify-center items-center lg:w-10/12">
-            <Image src={NewsLetterImage} />
+            <Image src={NewsLetterImage} alt={"newsletter"} />
           </div>
         </div>
         <div className="lg:w-6/12 md:w-7/12">

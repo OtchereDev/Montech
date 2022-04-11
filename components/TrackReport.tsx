@@ -7,7 +7,7 @@ const TrackReport = () => {
     <div className="flex flex-col md:flex-row px-5 md:px-10 lg:px-20  justify-center  gap- lg:gap-16 text-white my-4">
       <div className="lg:w-5/12 w-10/12 mt-6 md:mt-0  md:mr-4 lg:mr-10 md:w-6/12 mx-auto md:mx-0 order-2 md:order-1">
         <div className="relative w-full">
-          <Image src={TrackReportImage} />
+          <Image src={TrackReportImage} alt={"report"} />
         </div>
       </div>
       <div className="lg:w-4/12 md:w-7/12 text-center md:text-left order-1 md:order-2">
